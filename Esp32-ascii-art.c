@@ -4,18 +4,18 @@ Having fun with a ESP32 - Add this ESP-32 Ascii Art Pinout into your source code
 
 
                            +------------------------------+
-                           |    |--|  ____  ____  |       |
-                           |    |  |  |  |  |  |  |       |
-                           |    |  |__|  |__|  |__|       |
-                           |            -------           |
-                           | [ 3V3 ] 1           38   [ ] | GND
-                           | [ EN ]                  [ ] | MOSI / V_SPI_WP / GPIO23
-     ADC1_0 / SensVP       | [ G36 ]              SCL / U0_RTS / V_SPI_WP / GPIO22
-  GPIO39 / ADC1_3 / SensVN | [ G39 ]                   [ ] |        CLK3 / U0_TXD /  GPIO1 
-  | [ G34 ]                  [ ] |     CLK2 / U0_RXD /  GPIO3 
-              ADC1_7        | [ G35 ]                 [ ] |     SDA / V_SPI_HD / GPIO21
-      ADC1_4/Touch9        | [ G32 ]                  [ ] | GND
-      ADC1_5/Touch8        | [ G33 ]                     U0_CTS / MSIO / V_SPI_Q / GPIO19
+                           |       |--|  ____  ____  |       |
+                           |       |  |  |  |  |  |  |       |
+                           |       |  |__|  |__|  |__|       |
+                           |              -------            |
+                           | [ 3V3 ] 1            38 [ GND ] | 
+                           | [ EN ]                  [ G23 ] | MOSI / V_SPI_WP
+      ADC1_0 / SensVP / IN | [ G36 ]                 [ G22 ] | SCL 
+      ADC1_3 / SensVN / IN | [ G39 ]                 [ G01 ] | U0_TXD 
+      ADC1_6          / IN | [ G34 ]                 [ G03 ] | U0_RXD 
+      ADC1_7          / IN | [ G35 ]                 [ G21 ] | SDA
+      ADC1_4/Touch9        | [ G32 ]                 [ GND ] | 
+      ADC1_5/Touch8        | [ G33 ]                 [ G19 ] |  U0_CTS / MSIO / V_SPI_Q / GPIO19
            [ ] | GPIO25 / ADC2_8 / DAC1
                [ ] | GPIO26 / ADC2_9 / DAC2
                 [ ] | GPIO27 / ADC2_7 / Touch7                        U2_TXD / GPIO17
