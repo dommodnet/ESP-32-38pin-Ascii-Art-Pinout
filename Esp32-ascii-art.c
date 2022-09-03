@@ -1,3 +1,4 @@
+/*
 ESP-32 38Pin
 Having fun with a ESP32 - Add this ESP-32 Ascii Art Pinout into your source code as a reference - Add your own pin definition infomation to it.
 
@@ -26,3 +27,4 @@ Having fun with a ESP32 - Add this ESP-32 Ascii Art Pinout into your source code
                                          |  |__|__|  |__|  |__|  |
                                          | O                   O |
                                          +-----------------------+
+*/
